@@ -20,8 +20,8 @@
 
     fclose($handle);
 
-    for($i =0; $i <= $data.count($data(0)); $i++) {
-        echo $data(0,$i);
+    for($i =0; $i <= count($csvArray); $i++) {
+        echo $csvArray[$i][0];
     }
 
     ?>
